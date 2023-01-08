@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - 18
+os:
+  - linux
+dist: jammy
+before_install:
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.22.4
+  - export PATH=$HOME/.yarn/bin:$PATH
+# See https://code.visualstudio.com/api/working-with-extensions/continuous-integration#travis-ci
+install:
+  - yarn
+cache:
+  yarn: true
+script: yarn test:ci
