@@ -103,7 +103,7 @@ Contributions of any kind are welcome!
 [changelog]: https://github.com/nicoespeon/ts-tidy/blob/main/CHANGELOG.md
 [contributing]: https://github.com/nicoespeon/ts-tidy/blob/main/CONTRIBUTING.md
 [license]: https://github.com/nicoespeon/ts-tidy/blob/main/LICENSE.md
-[good-first-issues]: https://github.com/nicoespeon/ts-tidy/issues?q=is%3Aissue+is%3Aopen+label%3A%22%3Awave%3A+Good+first+issue%22
+[good-first-issues]: https://github.com/nicoespeon/ts-tidy/labels/good%20first%20issue
 [semver]: http://semver.org/
 [all-contributors]: https://allcontributors.org
 [all-contributors-emoji]: https://allcontributors.org/docs/en/emoji-key
