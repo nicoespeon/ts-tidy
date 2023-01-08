@@ -53,12 +53,12 @@ We follow [SemVer][semver] convention for versioning.
 That means releases use the following format:
 
 ```
-<major>.<minor>.<patch>
+<breaking>.<feature>.<fix>
 ```
 
-- Breaking changes bump `<major>` (and reset `<minor>` & `<patch>`)
-- Backward compatible changes bump `<minor>` (and reset `<patch>`)
-- Bug fixes bump `<patch>`
+- Breaking changes bump `<breaking>` (and reset `<feature>` & `<fix>`)
+- Backward compatible changes bump `<feature>` (and reset `<fix>`)
+- Bug fixes bump `<fix>`
 
 ## Contributing
 
