@@ -42,7 +42,7 @@
     "prepublish": "rm -rf lib && yarn build"
   },
   "devDependencies": {
-    "@babel/core": "7.20.12",
+    "@babel/core": "7.21.0",
     "@types/jest": "29.2.5",
     "@types/node": "18.11.18",
     "@typescript-eslint/eslint-plugin": "5.48.0",
